@@ -1,0 +1,31 @@
+.selectItem{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.selectUl{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+.selectUl>li{
+    display: flex;
+    flex-direction: column;
+    width: 174px;
+    height: 148px;
+    padding: 10px 0;
+}
+
+.selectUl>li>img{
+    width: 165px;
+    height: 110px;
+    border-radius: 5px;
+}
+.selectname{
+    font-size: 17px;
+    font-weight: bold;
+}
+.selectchosen{
+    color: #999;
+    font-size: 12px;
+}

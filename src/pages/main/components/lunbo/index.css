@@ -1,0 +1,6 @@
+.swiper-container {
+    margin-top: 44px;
+    height: 170px;
+    --swiper-pagination-color: hsla(0,0%,100%,.5);
+    --swiper-theme-color: white;
+} 

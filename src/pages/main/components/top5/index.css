@@ -1,0 +1,39 @@
+.Top5Item{
+    padding: 10px;
+}
+.top5Ul{
+    background: #004b9e;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.top5Ul>div{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+.top5Ul>li{
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 14px ;
+    padding: 11px 15px;
+    display:flex;
+    justify-content: flex-start;
+}
+.top5Ul>li>div:nth-of-type(1)>img{
+    width: 75px;
+    height: 75px;
+}
+.top5Ul>li>div:nth-of-type(2){
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 10px;
+    font-size: 17px;
+}
+.top5Ul>li>div:nth-of-type(2)>div{
+    margin-top: 5px;
+    color: #999;
+    font-size: 12px;
+}

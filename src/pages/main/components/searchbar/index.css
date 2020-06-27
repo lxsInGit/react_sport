@@ -1,0 +1,39 @@
+.searchbar{
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 44px;
+    font-size: 14px;
+    background:rgb(0, 75, 158);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.mainInp>input{
+    border: 0;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.mainCity{
+    width: 50px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+}
+.mainInp{
+    background: white;
+    padding: 0 4%;
+    height: 30px;
+    width: 260px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
