@@ -18,6 +18,7 @@
     flex-direction: row;
     position: fixed;
     top: 44px;
+    background: white;
 
 }
 .find_list_qiehuan>li{
@@ -35,6 +36,8 @@
 }
 .find_data_list{
     margin-top: 93px;
+    padding: .625rem;
+    display: flex;
 }
 .find_active{
     color: #004b9e;

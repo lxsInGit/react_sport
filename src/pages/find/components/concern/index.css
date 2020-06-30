@@ -1,0 +1,5 @@
+.concern_div{
+    padding: 3.125rem .75rem;display: flex;
+    justify-content: center;
+    align-items: center;
+}
